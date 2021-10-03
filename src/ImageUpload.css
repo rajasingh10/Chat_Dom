@@ -1,0 +1,52 @@
+input[type="file"] {
+  display: none;
+}
+.image_input {
+  /* border: 1px solid #ccc; */
+  display: inline-block;
+  padding: 6px 3px;
+  cursor: pointer;
+}
+
+.preview {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  background-color: rgb(231, 209, 181);
+  border-radius: 5px;
+}
+.preview_image {
+  width: 90%;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.preview_send {
+  position: relative;
+}
+
+.send_button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: none; */
+  border: none;
+}
+
+.send_button > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.preview_close {
+  display: block !important;
+  margin: auto;
+  cursor: pointer;
+}
+
+.preview_loading {
+  display: block !important;
+  margin: auto;
+}

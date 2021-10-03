@@ -1,0 +1,44 @@
+.sidebar_chat {
+  background: bisque;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  height: 24px;
+  border-bottom: 4px solid #f6f6f6;
+}
+
+.sidebar_chat:hover {
+  background-color: #fcb4b4;
+}
+.fixed {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  justify-content: space-around;
+  background-color: rgb(216 123 123);
+  border: none;
+}
+.fixed .MuiSvgIcon-root {
+  /* margin: auto !important; */
+  font-size: 3rem;
+}
+.sidebarchat_info h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebarchat_info {
+  margin-left: 15px;
+}
+.sidebarchat_info > p {
+  word-break: break-all;
+}
+
+/* @media (max-width: 676px) {
+  .sidebar_chat {
+    height: unset;
+  }
+} */
